@@ -49,6 +49,35 @@
 .prs-cin p{color:#636e72;margin:0 0 24px;font-size:14px;}
 .prs-bc{display:inline-block;background:#268B7C;color:#fff;font-size:16px;font-weight:700;padding:18px 56px;border-radius:12px;text-decoration:none;}
 .prs-calcsec{padding:36px 50px;}
+
+@media(max-width:768px){
+  .prs-header{padding:44px 20px;}
+  .prs-sec,.prs-csec,.prs-calcsec{padding:36px 20px;}
+  .prs-fg{grid-template-columns:repeat(2,1fr);}
+  .prs-ug{grid-template-columns:repeat(2,1fr);}
+  .prs-dg{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:500px){
+  .prs-wrap{border-radius:0;}
+  .prs-header{padding:32px 16px;}
+  .prs-sec,.prs-csec,.prs-calcsec{padding:28px 16px;}
+  .prs-copy{font-size:16px;}
+  .prs-title{font-size:17px;}
+  .prs-fg{grid-template-columns:repeat(2,1fr);gap:8px;}
+  .prs-fc{font-size:12.5px;padding:14px 12px;}
+  .prs-ug{grid-template-columns:repeat(2,1fr);gap:10px;}
+  .prs-ui{font-size:13px;padding:18px 10px;}
+  .prs-dg{grid-template-columns:repeat(2,1fr);}
+  .prs-flow{gap:6px;}
+  .prs-ditem{font-size:12px;padding:8px 12px;}
+  .prs-darr{font-size:14px;}
+  .prs-dres{font-size:12px;padding:8px 12px;}
+  .prs-tag{font-size:12px;padding:4px 10px;}
+  .prs-wrap table{font-size:12px;}
+  .prs-wrap th,.prs-wrap td{padding:10px 8px;}
+  .prs-cin{padding:20px 16px;}
+  .prs-bc{font-size:14px;padding:14px 28px;}
+}
 </style>
 
 <div class="prs-wrap">
@@ -165,7 +194,7 @@
         <div class="prs-dg">
             <a href="#" class="prs-bdl">품목제조보고서</a>
             <a href="#" class="prs-bdl">자가품질성적서</a>
-            <a href="#" class="prs-bdl">MSDS</a>
+            <a href="https://syjhpnc.github.io/SDS/페라스타 SDS_v4.pdf" class="prs-bdl"download target="_blank" class="prs-bdl">MSDS</a>
             <a href="#" class="prs-bdl">효력시험 결과</a>
             <a href="#" class="prs-bdl">할랄인증서</a>
             <a href="#" class="prs-bdl">KGMP 인증서</a>
